@@ -1,0 +1,19 @@
+.card_container {
+    height: 400px;
+    width: 300px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+
+.card_container:hover {
+    box-shadow:  0 0 5px rgb(160, 160, 160);
+    transition: 0.5s;
+
+}

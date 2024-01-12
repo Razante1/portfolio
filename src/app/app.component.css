@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    list-style: none;
+}
+.top {
+    width: 100%;
+    height: 10vh;
+}
+
+
+.container_cards {
+    display: flex;
+    width: 80%;
+    flex-wrap:wrap;
+    height: max-content;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    margin:50px 0
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container_wrapper {
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.teste {
+    background-color: darkred;
+    width: 700px;
+    height: 700px;
+}
+

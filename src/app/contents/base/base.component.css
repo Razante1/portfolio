@@ -1,0 +1,72 @@
+.base_container {
+    width: 100%;
+    height: fit-content;
+    max-height: fit-content;
+    max-width: fit-content;
+    margin: 100px 0 ;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.base_left, .base_right {
+    width: 50%;
+    height: auto;
+    padding: 0 10px;
+    
+}
+
+.base_left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column ;
+}
+
+.base_left > img {
+    border-radius: 20px;
+}
+
+
+.about {
+    display: flex;
+    align-items: start;
+}
+
+.about_answers  > ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    
+}
+
+.about_answers ul li{
+    margin-bottom: 10px;
+}
+
+
+.about_answers  ul li::before{
+    content: ": ";
+}
+
+.about_themes {
+    display: flex;
+    flex-direction: column;;
+    width: 30%;
+}
+
+.about_themes  > ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+
+.about_themes ul li{
+    margin-bottom: 10px;
+}
+
+
