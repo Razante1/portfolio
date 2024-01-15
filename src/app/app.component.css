@@ -30,6 +30,10 @@
     flex-direction: column;
 }
 
+.container h1 {
+    margin-bottom: 20px;
+}
+
 .container_wrapper {
     width: 200px;
     align-items: center;

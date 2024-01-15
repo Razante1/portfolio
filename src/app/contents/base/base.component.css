@@ -10,11 +10,26 @@
     justify-content: center;
 }
 
-.base_left, .base_right {
+.base_left {
     width: 50%;
     height: auto;
     padding: 0 10px;
     
+}
+
+.base_right {
+    width: 40%;
+    border: 1px solid darkred;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.base_right p {
+    width: 80%;
 }
 
 .base_left {
@@ -31,7 +46,7 @@
 
 .about {
     display: flex;
-    align-items: start;
+    align-items: center;
 }
 
 .about_answers  > ul{
